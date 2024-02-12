@@ -37,6 +37,7 @@ public class Reservation extends BaseEntity {
 
 
     @OneToOne
+    @NotNull
     private Guest guest;
 
     @ManyToOne
